@@ -1,0 +1,5 @@
+Movie Controller complet
+Movie DTO (informations globale et détails)
+Movie model
+Movie service
+Movie validator
