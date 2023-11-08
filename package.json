@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
-    "test": "cross-env NODE_ENV=test mocha test/*.spec.js"
+    "test": "cross-env NODE_ENV=test mocha test/*.spec.js --watch"
   },
   "author": "",
   "license": "ISC",

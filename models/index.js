@@ -3,9 +3,10 @@ const { Sequelize } = require('sequelize');
 
 // Initilisation une nouvelle instance de l'object avec SQLite en paramètre
 let sequelize;
-if(process.env.NODE_ENV === 'test') {
+if(process.env.NODE_ENV === 'test')
+ {
       sequelize = new Sequelize('sqlite::memory:',{// disable logging; default: console.log
-        logging: false});
+        logging: false});         
      
 }
 else{

@@ -26,7 +26,7 @@ class CharacterDetailDTO {
         this.firstname = data.firstname;
         this.lastname = data.lastname;
         this.gender = data.gender;
-        this.birthdate = data.birthdate;
+        this.birthdate = new Date(data.birthdate);
     }
 }
 
